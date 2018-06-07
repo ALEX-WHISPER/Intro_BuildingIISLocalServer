@@ -1,42 +1,41 @@
-ï»¿# IISæœ¬åœ°æœåŠ¡å™¨æ­å»º
+# IIS±¾µØ·þÎñÆ÷´î½¨
 
 ---
 
-+ æ­å»ºç½‘ç«™
-    - å®‰è£…IIS
-        - æŽ§åˆ¶é¢æ¿
-        - ç¨‹åº
-        - æ‰“å¼€æˆ–å…³é—­"Windows"åŠŸèƒ½
-        - é€‰ä¸­ "Internetä¿¡æ¯æœåŠ¡"(ä½¿é€‰æ¡†è¢«å¡«å……)ï¼Œå±•å¼€
-            - ä¸‡ç»´ç½‘æœåŠ¡
-            - åº”ç”¨ç¨‹åºå¼€å‘åŠŸèƒ½
-            - å‹¾é€‰".NETæ‰©å±•æ€§"ã€"ASP"ã€"ASP.NET"ã€"ISAPIæ‰©å±•"ã€"ISAPIç­›é€‰å™¨"
-        - å‹¾é€‰"Internet Information Service å¯æ‰¿è½½çš„ Web æ ¸å¿ƒ"
++ ´î½¨ÍøÕ¾
+    - °²×°IIS
+        - ¿ØÖÆÃæ°å
+        - ³ÌÐò
+        - ´ò¿ª»ò¹Ø±Õ"Windows"¹¦ÄÜ
+        - Ñ¡ÖÐ "InternetÐÅÏ¢·þÎñ"(Ê¹Ñ¡¿ò±»Ìî³ä)£¬Õ¹¿ª
+            - ÍòÎ¬Íø·þÎñ
+            - Ó¦ÓÃ³ÌÐò¿ª·¢¹¦ÄÜ
+            - ¹´Ñ¡".NETÀ©Õ¹ÐÔ"¡¢"ASP"¡¢"ASP.NET"¡¢"ISAPIÀ©Õ¹"¡¢"ISAPIÉ¸Ñ¡Æ÷"
+        - ¹´Ñ¡"Internet Information Service ¿É³ÐÔØµÄ Web ºËÐÄ"
         
-    - æ£€æŸ¥å®‰è£…ç»“æžœ
-        - å¼€å§‹èœå•
-        - æœç´¢ "IIS"
-        - è‹¥å‡ºçŽ° "Internetä¿¡æ¯æœåŠ¡(IIS)ç®¡ç†å™¨"ï¼Œè¯´æ˜Žå®‰è£…æˆåŠŸ
+    - ¼ì²é°²×°½á¹û
+        - ¿ªÊ¼²Ëµ¥
+        - ËÑË÷ "IIS"
+        - Èô³öÏÖ "InternetÐÅÏ¢·þÎñ(IIS)¹ÜÀíÆ÷"£¬ËµÃ÷°²×°³É¹¦
     
-    - æ–°å»ºæœ¬åœ°ç½‘ç«™
-        - å¼€å§‹èœå•ï¼Œæœç´¢ "IIS"ï¼Œè¿›å…¥ "Internetä¿¡æ¯æœåŠ¡(IIS)ç®¡ç†å™¨"
-        - å·¦ä¾§"è¿žæŽ¥"é¢æ¿ä¸­ï¼Œå°†é€‰é¡¹å±•å¼€->"ç½‘ç«™"->å³é”®->"æ·»åŠ ç½‘ç«™"
-        - é…ç½®ç½‘ç«™å±žæ€§ï¼š
-            - ç½‘ç«™åç§°ï¼šè‡ªå®šä¹‰ï¼Œä½†ä¸å¾—ä¸Žå·²æœ‰çš„IISç½‘ç«™é‡å¤
-            - ç‰©ç†è·¯å¾„ï¼šä¾›å®¢æˆ·ç«¯è®¿é—®çš„æ–‡ä»¶æ‰€åœ¨è·¯å¾„
-            - IPåœ°å€ï¼šè‹¥è¦é€šè¿‡localhostè®¿é—®ï¼Œåˆ™é€‰æ‹©"å…¨éƒ¨æœªåˆ†é…"ï¼Œè‹¥è¦é€šè¿‡IPåœ°å€ï¼ˆç‚¹åˆ†åè¿›åˆ¶è¡¨ç¤ºï¼‰è®¿é—®ï¼Œåˆ™è¾“å…¥æœ¬æœºIPåœ°å€ï¼Œä¾‹å¦‚ï¼š172.12.10.126
-            - ç«¯å£å·ï¼šè¾“å…¥ä¸€ä¸ªæœªè¢«å ç”¨çš„ç«¯å£å·, ä¾‹å¦‚:8081
-            - ä¸»æœºåï¼šç•™ç©ºå³å¯
-    - è®¿é—®
-        - æµè§ˆå™¨å†…è¾“å…¥ï¼šlocalhost:8081 æˆ– 172.12.10.126:8081 (æ ¹æ®ä¸Šä¸€æ­¥å¯¹IPåœ°å€çš„é…ç½®æƒ…å†µè¾“å…¥)
-        - è‹¥ç½‘é¡µå‡ºçŽ°ä»¥ä¸‹é”™è¯¯æç¤ºï¼Œè§ä¸‹ä¸€æ­¥
-            > HTTP é”™è¯¯ 403.14 - Forbidden
-            > Web æœåŠ¡å™¨è¢«é…ç½®ä¸ºä¸åˆ—å‡ºæ­¤ç›®å½•çš„å†…å®¹
+    - ÐÂ½¨±¾µØÍøÕ¾
+        - ¿ªÊ¼²Ëµ¥£¬ËÑË÷ "IIS"£¬½øÈë "InternetÐÅÏ¢·þÎñ(IIS)¹ÜÀíÆ÷"
+        - ×ó²à"Á¬½Ó"Ãæ°åÖÐ£¬½«Ñ¡ÏîÕ¹¿ª->"ÍøÕ¾"->ÓÒ¼ü->"Ìí¼ÓÍøÕ¾"
+        - ÅäÖÃÍøÕ¾ÊôÐÔ£º
+            - ÍøÕ¾Ãû³Æ£º×Ô¶¨Òå£¬µ«²»µÃÓëÒÑÓÐµÄIISÍøÕ¾ÖØ¸´
+            - ÎïÀíÂ·¾¶£º¹©¿Í»§¶Ë·ÃÎÊµÄÎÄ¼þËùÔÚÂ·¾¶
+            - IPµØÖ·£ºÈôÒªÍ¨¹ýlocalhost·ÃÎÊ£¬ÔòÑ¡Ôñ"È«²¿Î´·ÖÅä"£¬ÈôÒªÍ¨¹ýIPµØÖ·£¨µã·ÖÊ®½øÖÆ±íÊ¾£©·ÃÎÊ£¬ÔòÊäÈë±¾»úIPµØÖ·£¬ÀýÈç£º172.12.10.126
+            - ¶Ë¿ÚºÅ£ºÊäÈëÒ»¸öÎ´±»Õ¼ÓÃµÄ¶Ë¿ÚºÅ, ÀýÈç:8081
+            - Ö÷»úÃû£ºÁô¿Õ¼´¿É
+    - ·ÃÎÊ
+        - ä¯ÀÀÆ÷ÄÚÊäÈë£ºlocalhost:8081 »ò 172.12.10.126:8081 (¸ù¾ÝÉÏÒ»²½¶ÔIPµØÖ·µÄÅäÖÃÇé¿öÊäÈë)
+        - ÈôÍøÒ³³öÏÖÒÔÏÂ´íÎóÌáÊ¾£¬¼ûÏÂÒ»²½
+            ``` HTTP ´íÎó 403.14 - Forbidden Web ·þÎñÆ÷±»ÅäÖÃÎª²»ÁÐ³ö´ËÄ¿Â¼µÄÄÚÈÝ ```
     
-    - ç›®å½•æµè§ˆï¼š
-        - è¿›å…¥Internet ä¿¡æ¯æœåŠ¡(IIS)ç®¡ç†å™¨
-        - é€‰æ‹©æ–¹æ‰æ·»åŠ çš„ç½‘ç«™(å·¦é”®å•å‡»)
-        - åœ¨å¯¹åº”ä¸»é¡µçš„IISå—ï¼ŒåŒå‡»"ç›®å½•æµè§ˆ"ï¼Œåœ¨å³ä¾§é¢æ¿é€‰æ‹©"å¯ç”¨"
-        - å†æ¬¡åœ¨æµè§ˆå™¨å†…è®¿é—®æœ¬åœ°ç½‘ç«™
+    - Ä¿Â¼ä¯ÀÀ£º
+        - ½øÈëInternet ÐÅÏ¢·þÎñ(IIS)¹ÜÀíÆ÷
+        - Ñ¡Ôñ·½²ÅÌí¼ÓµÄÍøÕ¾(×ó¼üµ¥»÷)
+        - ÔÚ¶ÔÓ¦Ö÷Ò³µÄIIS¿é£¬Ë«»÷"Ä¿Â¼ä¯ÀÀ"£¬ÔÚÓÒ²àÃæ°åÑ¡Ôñ"ÆôÓÃ"
+        - ÔÙ´ÎÔÚä¯ÀÀÆ÷ÄÚ·ÃÎÊ±¾µØÍøÕ¾
     
-    - æµè§ˆjsonæ–‡ä»¶ï¼šè‹¥æ— æ³•æµè§ˆjsonæ–‡ä»¶ï¼Œå¯å‚è€ƒè¯¥[é“¾æŽ¥](https://blog.csdn.net/wyqlxy/article/details/44941019)
+    - ä¯ÀÀjsonÎÄ¼þ£ºÈôÎÞ·¨ä¯ÀÀjsonÎÄ¼þ£¬¿É²Î¿¼¸Ã[Á´½Ó](https://blog.csdn.net/wyqlxy/article/details/44941019)
